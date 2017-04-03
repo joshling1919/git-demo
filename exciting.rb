@@ -1,2 +1,2 @@
 p 'I am in love with an AI'
-p 'oh yes!!'
+p 'oh yes whats up!!'
