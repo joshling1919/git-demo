@@ -1,1 +1,2 @@
-p 'oh hell yes!!'
+p 'I am in love with an AI'
+p 'oh no!!'
