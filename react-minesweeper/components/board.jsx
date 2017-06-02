@@ -13,6 +13,7 @@ class Board extends React.Component{
     const that = this;
     return(
       <div id="board">
+        <div>what up</div>
         {this.renderRows()}
       </div>
     );
