@@ -14,6 +14,7 @@ class Board extends React.Component{
     return(
       <div id="board">
         <div>what up</div>
+        <div>what left</div>
         {this.renderRows()}
       </div>
     );
