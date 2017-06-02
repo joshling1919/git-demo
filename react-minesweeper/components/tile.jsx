@@ -5,7 +5,7 @@ class Tile extends React.Component{
     super(props);
     this.handleClick = this.handleClick.bind(this);
   }
-  
+
   handleClick(e) {
     const flagged = e.altKey ? true : false;
     this.props.updateGame(this.props.tile, flagged);
