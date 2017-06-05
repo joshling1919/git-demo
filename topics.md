@@ -27,3 +27,6 @@
     Andrew approves Josh's PR before Josh approves Andrew's, causing Andrew's PR now to have merge conflicts.
     - Andrew demos how to resolve merge conflicts.
     - All the while, the actual branching is being displayed on the board.
+
+## Vim Cheat Sheet
+https://www.fprintf.net/vimCheatSheet.html
