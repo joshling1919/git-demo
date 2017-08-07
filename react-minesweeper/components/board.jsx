@@ -15,6 +15,7 @@ class Board extends React.Component{
       <div id="board">
         <div>What up!!!!!!!!!!!!!!!!</div>
         <div>What down?</div>
+        <div>What LEFT, yo!!!!!!!!!!!!!!!!</div>
         {this.renderRows()}
       </div>
     );
