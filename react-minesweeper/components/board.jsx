@@ -14,6 +14,7 @@ class Board extends React.Component{
     return(
       <div id="board">
         <div>Hello!</div>
+        <div>Hello!</div>
         {this.renderRows()}
       </div>
     );
