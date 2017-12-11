@@ -14,6 +14,8 @@ class Board extends React.Component{
     return(
       <div id="board">
         <div>WHATS UP!!!!!!!!!!!!!!!!!</div>
+        <div>WHAT IS LEFT?!!!!!!!!!!!!!!!!!</div>
+
       </div>
     );
   }
