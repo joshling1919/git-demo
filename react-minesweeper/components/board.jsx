@@ -13,7 +13,7 @@ class Board extends React.Component{
     const that = this;
     return(
       <div id="board">
-        <div>WHATS UP</div>
+        <div>WHATS UP!!!!!!!!!!!!!!!!!</div>
       </div>
     );
   }
