@@ -18,7 +18,7 @@ class Board extends React.Component {
         <div>What is down???</div>
         <div>This is my favorite line</div>
         <div>This is my second favorite line</div>
-        <div>Last line for real this time</div>
+        <div>Last line for real this time. This line is fake.</div>
       </div>
     );
   }
