@@ -1,8 +1,8 @@
-import Tile from './tile';
-import React from 'react';
+import Tile from "./tile";
+import React from "react";
 
-class Board extends React.Component{
-  constructor(props){
+class Board extends React.Component {
+  constructor(props) {
     super(props);
     this.renderRows = this.renderRows.bind(this);
     this.renderTiles = this.renderTiles.bind(this);
@@ -11,18 +11,18 @@ class Board extends React.Component{
   render() {
     const board = this.props.board;
     const that = this;
-    return(
+    return (
       <div id="board">
         <div>WHATS UP!!!!!!!!!!!!!!!!!</div>
         <div>WHAT IS LEFT?!!!!!!!!!!!!!!!!!</div>
-
+        <div>What is down???</div>
       </div>
     );
   }
 
   renderRows() {
     const board = this.props.board;
-    return board.grid.map( (row, i) => {
+    return board.grid.map((row, i) => {
       return (
         <div className="row" key={`row-${i}`}>
           {this.renderTiles(row, i)}
@@ -31,18 +31,18 @@ class Board extends React.Component{
     });
   }
 
-  renderTiles(row, i){
+  renderTiles(row, i) {
     const board = this.props.board;
-    return row.map( (tile, j) => {
+    return row.map((tile, j) => {
       return (
         <Tile
           tile={tile}
           updateGame={this.props.updateGame}
-          key={i * board.gridSize + j} />
+          key={i * board.gridSize + j}
+        />
       );
     });
   }
-
 }
 
 export default Board;
