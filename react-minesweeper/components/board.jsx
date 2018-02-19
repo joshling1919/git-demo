@@ -16,6 +16,7 @@ class Board extends React.Component{
         <div>WHATS UP!!!!!!!!!!!!!!!!!</div>
         <div>WHAT IS LEFT?!!!!!!!!!!!!!!!!!</div>
         <div>What is down???</div>
+        <div>This is the last line</div>
       </div>
     );
   }
