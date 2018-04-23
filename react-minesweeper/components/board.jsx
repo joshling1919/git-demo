@@ -14,6 +14,7 @@ class Board extends React.Component {
     return (
       <div id="board">
         <div>Jet fuel</div>
+        <div>can't melt</div>
       </div>
     );
   }
