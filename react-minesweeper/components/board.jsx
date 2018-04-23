@@ -13,12 +13,8 @@ class Board extends React.Component {
     const that = this;
     return (
       <div id="board">
-        <div>WHATS UP!!!!!!!!!!!!!!!!!</div>
-        <div>WHAT IS LEFT?!!!!!!!!!!!!!!!!!</div>
-        <div>What is down???</div>
-        <div>This is my favorite line</div>
-        <div>This is my second favorite line</div>
-        <div>Last line for real this time. This line is fake.</div>
+        <div>Jet fuel</div>
+        <div>can't melt</div>
       </div>
     );
   }
